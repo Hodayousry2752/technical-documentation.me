@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@500&family=Bree+Serif&family=Poppins:wght@100;200;400;600&family=Rajdhani:wght@300&family=Roboto:wght@100;300;400&display=swap');
+*{
+    font-family: Bree Serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #121212;
+
+}
+.home{
+    display: flex;
+    padding-bottom: 50px;
+}
+h4 ,header{
+    font-size: 24px;
+    font-weight: bold;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+header{
+    border-bottom: 2px solid #121212;
+}
+.header-h{
+    margin-top: 20px;
+}
+nav h4{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    background-color: #e2e2e2;
+    padding: 5px 19px;
+    margin: 4px 4px;
+    font-size: 18px;
+    white-space: nowrap; 
+    transition: 0.4s
+
+}
+nav a:hover{
+    background-color: #121212;
+    color: white;
+}
+nav{
+    background-color: #c7c7c7; 
+    text-align: center;
+    padding-top: 25px;
+    height: 100vh;
+    position: fixed;
+
+}
+/* end nav */
+/* start sections */
+
+.sections{
+    margin-left: 150px;
+    margin-top: 40px;
+
+}
+section{
+    margin:0px 17px 
+}
+.introp{
+    padding-top: 10px;
+}
+.list{
+    background-color: #e2e2e2;
+    padding: 10px 30px 10px 30px;
+    width: fit-content;
+}
+.introp3{
+    padding: 5px 0px;
+}
+pre{
+    background-color: #121212;;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+}
+code{
+    width: fit-content;
+    color: #e2e2e2;
+}
+.p3{
+    padding-bottom: 2px;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1ff;
+}
+::-webkit-scrollbar-track:hover {
+    background: #D1D1DD;
+}
+::-webkit-scrollbar-thumb {
+    background: #666;;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+@media screen and (max-width: 800px) {
+    .home{
+        display: block;
+    }
+    /* nav{
+        
+        position: relative;top: 0px;left: 0px;
+        width: 100%;height: auto;padding-bottom: 2px;
+        
+    } */
+    pre{max-width: 100%;overflow-x: auto;}
+    nav{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        max-width: 100%;
+        min-width: 100%;
+        height: fit-content;
+        padding-bottom: 3px;
+    }
+    .sections{
+        min-width: 100%;
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
