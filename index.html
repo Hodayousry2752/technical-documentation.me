@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="main.css"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Technical Documentation</title>
@@ -45,8 +46,7 @@
             <section id="Syntax">
                 <header class="header-h">Syntax</header>
                 <p class="introp p3">Syntax is the structure of statements , Here is a simple program typed in C# to discuss the meaning of syntax</p>
-                <pre class="syntax-code">
-<code>using System;
+                <pre class="syntax-code"><code id='code-sample1'>using System;
 namespace Hello
 {
     class MyProgram
@@ -63,7 +63,7 @@ namespace Hello
         }
     }
 }</code>
-</pre>
+<i class="fas fa-copy copy-icon" onclick="copyToClipboard('code-sample1')"></i>  </pre>
             </section>
             <!-- end section 2 syntax -->
             <!-- start section 3 Data Types -->
@@ -86,17 +86,17 @@ namespace Hello
                 <header class="header-h">Variables</header>
                 <p class="introp p3">Variables are containers for storing data values.</p>
                 <p class="introp">The syntax for declaring a variable and assigning a value to it is as following :</p>
-                <pre>
-<code>data-type variable-name = value(data) ;</code></pre>
+                <pre><code id='code-sample2'>data-type variable-name = value(data) ;</code>
+<i class="fas fa-copy copy-icon" onclick="copyToClipboard('code-sample2')"></i>  </pre>
                 <p class="introp">For example :-</p>
-                <pre>
-<code>int age = 20 ;
+                <pre><code id='code-sample3'>int age = 20 ;
 string FirstName = "AAA" ;
 string full_name = "AAA BBB" ;
 double _degree = 80.5 ;
 char grade = 'A' ;
 bool student = true ;
-bool male = true ;</code></pre>
+bool male = true ;</code>
+<i class="fas fa-copy copy-icon" onclick="copyToClipboard('code-sample3')"></i>  </pre>
             </section>
             <!-- end section 4 Variables -->
             <!-- start section 5 Type Casting -->
@@ -104,14 +104,14 @@ bool male = true ;</code></pre>
                 <header class="header-h">Type Casting</header>
                 <p class="introp p3">Type casting means turning a certain data from a type to another one.</p>
                 <p>Syntax for type casting is :-</p>
-                <pre>
-<code>(data-type) data</code></pre>
+                <pre><code id='code-sample4'>(data-type) data</code>
+                    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('code-sample4')"></i>  </pre>
                 <p>For example :-</p>
-                <pre>
-<code>double pi = 3.14 ;
+                <pre><code id='code-sample5'>double pi = 3.14 ;
 int myInt = (int) pi ;
 Console.WriteLine(pi) ; // 3.14
-Console.WriteLine(myInt) ; // 3</code></pre>
+Console.WriteLine(myInt) ; // 3</code>
+<i class="fas fa-copy copy-icon" onclick="copyToClipboard('code-sample5')"></i>  </pre>
             </section>
             <!-- end section 5 Variables -->
             <!-- start section 6 User Input -->
@@ -119,24 +119,24 @@ Console.WriteLine(myInt) ; // 3</code></pre>
                 <header class="header-h">User Input</header>
                 <p class="introp">You already know that Console.WriteLine() is used to output text.</p>
                 <p class="introp">Now you are going to learn how to use Console.ReadLine() to get user input.</p>
-                <pre>
-<code>Console.ReadLine();</code></pre>
+                <pre><code id='code-sample6'>Console.ReadLine();</code>
+<i class="fas fa-copy copy-icon" onclick="copyToClipboard('code-sample6')"></i>  </pre>
                  <p>For example :-</p>
-                 <pre>
-<code>int age ;
+                 <pre><code id='code-sample7'>int age ;
 Console.Write("Enter your age:") ;
 age = Console.ReadLine() ;
-Console.WriteLine("You are " + age + " years old") ;</code></pre>
+Console.WriteLine("You are " + age + " years old") ;</code>
+<i class="fas fa-copy copy-icon" onclick="copyToClipboard('code-sample7')"></i>  </pre>
             </section>
             <!-- end section 6 User Input -->
             <!-- start section 7 Booleans -->
             <section id="Booleans">
                 <header class="header-h">Booleans</header>
                 <p class="introp p3">Booleans are data types that can be used to control whether something is true or false(yes or no / on or off).</p>
-                <pre>
-<code>bool male = true ;
+                <pre><code id='code-sample8'>bool male = true ;
 bool student = true ;
-bool permission_accepted = false ;</code></pre>
+bool permission_accepted = false ;</code>
+<i class="fas fa-copy copy-icon" onclick="copyToClipboard('code-sample8')"></i>  </pre>
             </section>
             <!-- end section 7 Booleans -->
         </div>
