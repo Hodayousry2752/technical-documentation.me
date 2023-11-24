@@ -142,5 +142,15 @@ bool permission_accepted = false ;</code>
         </div>
     </div>
 </body>
-  <script src="https://raw.githubusercontent.com/Hodayousry2752/technical-documentation.me/master/main.js"></script>
+  <script>
+      function copyToClipboard(codeId) {
+  var codeSample = document.getElementById(codeId);
+  var textArea = document.createElement('textarea');
+  textArea.value = codeSample.textContent;
+  document.body.appendChild(textArea);
+  textArea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textArea);
+}
+  </script>
 </html>
