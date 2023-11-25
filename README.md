@@ -1,2 +1,2 @@
 # technical-documentation.me
-Technical Documentation website by using HTNL and CSS 
+Technical Documentation website by using HTML, CSS and JS
